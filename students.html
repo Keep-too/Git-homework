@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Registry Info</title>
+    </head>
+    <body>
+    <h2>Student Registry Form </h2>
+    <form action="Submit" method ="POST">
+
+        <label for="First_name">First Name:</label>
+        <input type="text" id="First_name" First name="First_name" placeholder="Enter your First name"required /><br><br>
+    
+        <label for="Last_name">Last Name:</label>
+        <input type="text" id="Last_name" Last name="Last_name" placeholder="Enter your Last name"required/> <br><br>
+        
+        <label for ="Contact">Phone number:</label>
+        <input type="tel" id="Phone_number" Phone number="phone_number" placeholder="Enter your phone number"required /><br><br>
+
+        <label for="DoB">DoB:</label>
+        <input type="date" id="DoB" Last name="DoB" placeholder="Enter your Date of Birth"required/> <br><br>
+
+        <!--Faculty option-->
+        <fieldset>
+            <legend>Select Faculty you are in:</legend>
+            <label for="Arts General and Education"> Arts General and Education</label>
+            <input type ="checkbox" id="Arts General and Education" name="Faculty" value="Arts General and Education"/><br>
+            
+            <label for="Tourism &  Environment"> Tourism & Environment</label>
+            <input type ="checkbox" id="Tourism & Environment" name="Faculty" value="Tourism & Environment"/><br>
+    
+            <label for="Business"> Business </label>
+            <input type ="checkbox" id="Business" name="Faculty" value="Business"/><br>
+            <label for="Social Sciences"> Social Sciences</label>
+            <input type ="checkbox" id="Social Sciences" name="Faculty" value="Social Sciences"/><br>
+        
+            <label for="Engineering"> Engineering</label>
+            <input type ="checkbox" id="Engineering" name="Faculty" value="Engineering"/><br>
+        </fieldset>
+        <fieldset>       
+            <label for="courses">Courses to be Taken:</label><br>
+        <input type="checkbox" id="course1" name="courses" value="Mathematics">
+        <label for="course1">Mathematics</label><br>
+        
+        <input type="checkbox" id="course2" name="courses" value="Economics and Statistics">
+        <label for="course2">Economics and Statistics</label><br>
+        
+        <input type="checkbox" id="course3" name="courses" value="Forestry">
+        <label for="course3">Forestry</label><br>
+        
+        <input type="checkbox" id="course4" name="courses" value="Computer Science">
+        <label for="course4">Computer Science</label><br><br>
+        
+        </fieldset>
+    </form>
+    </body>
+    <input type="submit" value="Submit">
+</html>
+

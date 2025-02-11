@@ -1,0 +1,52 @@
+<h1>Contact us now</h1>
+<form action="/submit" method="post">
+    <!-- First Name Field -->
+    <label for="First name">First Name:</label>
+    <input type="text" id="First name" name="first name" placeholder="Enter your first name" required><br><br>
+    
+    <!-- Last Name Field -->
+    <label for="last name">Last Name:</label>
+    <input type="text" id="last name" name="last name" placeholder="Enter your last name" required><br><br>
+
+    <!-- Contact Field -->
+    <label for="phone number">Phone Number:</label>
+    <input type="integer" id="phone number" name="phone number" placeholder="Enter your phone number" required><br><br>
+
+    <!-- Email address Field -->
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Region Selection -->
+    <label for="region">Select Your Region:</label>
+    <select id="region" name="region" required>
+        <option value="" disabled selected>Select your region</option>
+        <option value="Nairobi">Nairobi</option>
+        <option value="Kiambu">Kiambu</option>
+        <option value="Machakos">Machakos</option>
+    </select><br><br>
+
+    <!-- Message Field -->
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Enter your message" rows="4" required> </textarea> <br><br>
+    
+    <!-- Languages Fluent In -->
+    <fieldset>
+        <legend>Select Languages You Are Fluent In:</legend>
+        <label for="english">English</label>
+        <input type="checkbox" id="english" name="languages" value="English"><br>
+        
+        <label for="swahili">Swahili</label>
+        <input type="checkbox" id="swahili" name="languages" value="Swahili"><br>
+        
+        <label for="french">French</label>
+        <input type="checkbox" id="french" name="languages" value="French"><br>
+        
+        <label for="german">German</label>
+        <input type="checkbox" id="german" name="languages" value="German"><br>
+    </fieldset><br>
+
+    <!-- Submit and Clear Buttons -->
+    <button type="submit">Submit</button>
+    <button type="reset">Clear</button>
+    
+            <h4>We shall get back as soon as possible</h4>
